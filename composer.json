@@ -1,7 +1,6 @@
 {
     "name": "kevinzheng/laravel-yunpian",
     "description": "Yunpian library for Laravel/Lumen",
-    "type": "yunpian, laravel, lumen",
     "license": "MIT",
     "authors": [
         {
