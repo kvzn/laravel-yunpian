@@ -7,7 +7,7 @@
 $yunpian_config = array();
 
 // 不起作用,必须在Service里面获取
-$yunpian_config['APIKEY'] = env('YUNPIAN_API_KEY');
+$yunpian_config['APIKEY'] = getenv('YUNPIAN_API_KEY');
 
 
 
