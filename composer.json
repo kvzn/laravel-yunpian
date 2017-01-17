@@ -1,0 +1,25 @@
+{
+    "name": "kevinzheng/laravel-yunpian",
+    "description": "Yunpian library for Laravel/Lumen",
+    "type": "yunpian, laravel, lumen",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Zheng",
+            "email": "realkvz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "Illuminate/Support": "^5.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "KVZ\\Laravel\\Yunpian\\": "src/"
+        },
+        "files": [
+            "src/YunpianAutoload.php"
+        ]
+    }
+}
